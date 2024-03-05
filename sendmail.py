@@ -12,6 +12,7 @@ with st.sidebar:
   st.markdown('## Faça o download do modelo aqui :point_down:')
   st.download_button(label='Baixar Modelo', data=modelo_byte, file_name='Modelo.xlsx', mime='application/vnd.ms-excel')
 
+
 #parte principal
 st.markdown('# Envio de Emails em massa :email:')
 
@@ -44,7 +45,7 @@ def sendmail():
     msg['Subject'] = assunto
     msg['From'] = email
     msg['To'] = cliente['email']
-    msgs = f'Olá, {cliente['nome']}\n \n{messagem}'
+    msgs = f"Olá, {cliente['nome']}\n \n{messagem}"
     msg.attach(MIMEText(msgs, 'plain'))
 
     server = smtplib.SMTP('smtp.gmail.com', 587)
