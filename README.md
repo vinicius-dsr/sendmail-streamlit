@@ -13,7 +13,7 @@ Uma vez feito o download do código, deve instalar bibliotecas adicionais presen
 pip install -r requirements.txt
 ```
 
-Ou só acesse o ![Projeto Online](https://webmail-mass.streamlit.app/)
+Ou só acesse o o projeto online(https://webmail-mass.streamlit.app/)
 
 
 
