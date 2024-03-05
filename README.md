@@ -14,7 +14,7 @@ pip install -r requirements.txt
 ```
 
 Ou só acesse o projeto online:
-(https://webmail-mass.streamlit.app/)
+https://webmail-mass.streamlit.app/
 
 
 
