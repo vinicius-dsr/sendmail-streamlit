@@ -1,4 +1,4 @@
-![Preview do Projeto](https://imgur.com/a/lzyA4gZ)
+![Preview do Projeto](https://i.imgur.com/C2DUdJz.png)
 
 # Envio de Emails em Massa 🐍
 Web app para envios de emails em massa, feito em Python + Stremlit
